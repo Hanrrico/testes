@@ -1,0 +1,4 @@
+# Impede execução de scripts
+<FilesMatch "\.(php|php5|phtml)$">
+    Deny from all
+</FilesMatch>
